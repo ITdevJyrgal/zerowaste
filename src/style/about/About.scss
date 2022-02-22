@@ -2,20 +2,54 @@
   padding: 40px 0;
   &-general {
     &__title {
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Arial Regular', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
       line-height: 44px;
-      color: #004333;
+      color: #00AE84;
       text-align: center;
-      width: 150%;
+      width: 100%;
       margin-bottom: 5%;
     }
     &__width {
       width: 100%;
       border-bottom: 1px solid #00AE84;
       margin-bottom: 5%;
+    }
+    &__item {
+      font-family: 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #004333;
+      margin-bottom: 4%;
+    }
+
+    &__item {
+      font-family: 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #004333;
+    }
+    &__but {
+      font-family: 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #004333;
+    }
+    &__ser {
+      font-family: 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 21px;
+      color: #004333;
     }
   }
 }
