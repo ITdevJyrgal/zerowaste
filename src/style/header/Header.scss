@@ -1,9 +1,10 @@
 .header {
   //background: #666666FF;
-  padding: 13px 0;
+  padding: 15px 0;
   position: absolute;
   width: 100%;
   &-general {
+
     border-bottom: 2px solid #00AE84;
     &__logo {
       font-family: "Montserrat", sans-serif;
@@ -36,7 +37,6 @@
       color: white;
       font-size: 17px;
       transition: .3s;
-      position: relative;
       &:hover {
         background: transparent;
         border: 1px solid #00AE84;

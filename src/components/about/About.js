@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './../../assets/img/image 25.png'
+import mate from './../../assets/img/mate.png'
 
 const About = () => {
     return (
@@ -38,7 +38,7 @@ const About = () => {
                                     </h1>
                                 </div>
                                 <div>
-                                    <img src={image} alt="img" className="about-general__img"/>
+                                    <img src={mate} alt="img" className="about-general__img"/>
                                 </div>
                             </div>
                         </div>
