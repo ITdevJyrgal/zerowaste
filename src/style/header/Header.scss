@@ -1,0 +1,58 @@
+.header {
+  //background: #666666FF;
+  padding: 13px 0;
+  position: absolute;
+  width: 100%;
+  &-general {
+    border-bottom: 2px solid #00AE84;
+    &__logo {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+    }
+
+    &__nav {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: #FFFFFF;
+      transition: .3s;
+      padding: 0 30px;
+      &:hover {
+        color: #00AE84;
+      }
+    }
+
+    &__btn {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      padding: .4rem 2.5rem;
+      background: #00AE84;
+      box-shadow: 0 4px 9px rgba(0, 69, 52, 0.35);
+      border-radius: 34px;
+      color: white;
+      font-size: 17px;
+      transition: .3s;
+      position: relative;
+      &:hover {
+        background: transparent;
+        border: 1px solid #00AE84;
+        transform: scale(1.1);
+      }
+      &__text {
+        padding-left: 10px;
+      }
+    }
+    &__tell {
+      margin: 4px -22px;
+    }
+    &__img {
+      margin:  0 25px;
+      padding-top: 15px;
+      cursor: pointer;
+    }
+  }
+}

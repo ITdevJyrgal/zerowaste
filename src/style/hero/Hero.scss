@@ -1,0 +1,49 @@
+.hero {
+  background: url("./../../assets/img/bg.png") no-repeat center/cover;
+  min-height: 100vh;
+  //linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(154, 103, 103, 0.125) 99.99%, rgba(228, 40, 40, 0) 100%)
+  &-general {
+    padding-top: 15%;
+
+    &__title {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+      margin-bottom: 1.1%;
+    }
+
+    &__item {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #00E3AD;
+      margin-bottom: 4%;
+    }
+
+    &__block {
+      width: 2px;
+      height: 150px;
+      margin-top: -100px;
+      background: #00E3AD;
+      margin-bottom: 100px;
+    }
+
+    &__items {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      padding-top: 50px;
+      line-height: 29px;
+      text-align: center;
+      color: #FFFFFF;
+
+    }
+  }
+}

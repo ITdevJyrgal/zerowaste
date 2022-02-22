@@ -1,0 +1,21 @@
+.about {
+  padding: 40px 0;
+  &-general {
+    &__title {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #004333;
+      text-align: center;
+      width: 150%;
+      margin-bottom: 5%;
+    }
+    &__width {
+      width: 100%;
+      border-bottom: 1px solid #00AE84;
+      margin-bottom: 5%;
+    }
+  }
+}
