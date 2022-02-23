@@ -8,16 +8,16 @@ import Switch from "@mui/material/Switch";
 
 const Header = () => {
      const MaterialUISwitch = styled(Switch)(({theme}) => ({
-         width: 55,
+         width: 56,
          height: 28,
-         padding: 5,
+         padding: 0,
          '& .MuiSwitch-switchBase': {
-             margin: 1,
+             margin: "1.4px 1px ",
              padding: 0,
-             transform: 'translateX(6px)',
+             transform: 'translateX(0)',
              '&.Mui-checked': {
                  color: '#ffffff',
-                 transform: 'translateX(22px)',
+                 transform: 'translateX(29px)',
                  '& .MuiSwitch-thumb:before': {
                      backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 20 20"><path fill="${encodeURIComponent(
                          '#ffffff',

@@ -11,15 +11,14 @@ const Services = () => {
             </div>
             <div className="container">
                 <div className="services-general">
-                        {
-                            Dates.map(el => (
-                                <div className="services-general__block">
+                    {
+                        Dates.map(el => (
+                            <div className="services-general__block">
                                 <img src={el.img} alt="img" className="services-general__block__img"/>
-                                    <p className="services-general__block__item">{el.item}</p>
-                                </div>
-                            ))
-                        }
-
+                                <p className="services-general__block__item">{el.item}</p>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </div>
