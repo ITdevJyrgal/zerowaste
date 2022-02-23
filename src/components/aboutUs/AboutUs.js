@@ -3,13 +3,12 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div>
+
             <div className="aboutus">
                 <div className="container">
                     <div className="aboutus-general">
-
                         <div className="aboutus-general__block ">
-                            <h1 className="aboutus-general__block__title  ">О НАС</h1>
+                            <h1 className="aboutus-general__block__title">О НАС</h1>
                             <div className="grid  grid-cols-2">
                                 <div>
                                     <p className="aboutus-general__block__item">Компания Zero Waste : занимается
@@ -34,7 +33,6 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 
