@@ -8,7 +8,7 @@
       .slick-track {
         display: flex;
         width: 97%;
-      }
+
 
       &__width {
         border-bottom: 2px solid #00E3AD;
@@ -28,6 +28,33 @@
         margin-bottom: 4%;
       }
 
+        &__block {
+          width: 413px;
+          height: 195px;
+          background: red;
+          box-shadow: 0 4px 17px rgba(186, 186, 186, 0.25);
+          border-radius: 5px;
+        }
+
+        &__titles {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 140%;
+          color: #000000;
+        }
+
+        &__item {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 140%;
+          color: #000000;
+        }
+
+      }
     }
   }
 }
