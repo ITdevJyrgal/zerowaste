@@ -4,14 +4,10 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import {styled} from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
-import Hero from "../hero/Hero";
-import About from "../about/About";
-import AboutUs from "../aboutUs/AboutUs";
-import Services from "../services/Services";
-import Job from "../job/Job";
-import Out from "../our/Our";
-import Reviews from "../reviews/Reviews";
-import useLocalStorage from "use-local-storage";
+// import {Link} from "react-router-dom";
+// import {Routes, Route} from "react-router-dom"
+// import Bas from "../../pages/bas/Bas";
+// import Poli from "../../pages/poli/Poli";
 
 const Header = () => {
     const MaterialUISwitch = styled(Switch)(({theme}) => ({
@@ -61,20 +57,20 @@ const Header = () => {
         },
     }));
 
-    const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
-
-    const switchTheme = () => {
-        const newTheme = theme === 'light' ? 'dark' : 'light';
-        setTheme(newTheme)
-    }
-
+    // const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
+    //
+    // const switchTheme = () => {
+    //     const newTheme = theme === 'light' ? 'dark' : 'light';
+    //     setTheme(newTheme)
+    // }
+    // data-theme={theme}
     return (
         <div>
-            <div className="header" data-theme={theme}>
+            <div className="header" >
                 <div className="container">
                     <div className="header-general flex  justify-between items-center">
                         <div>
-                            <h1 className="header-general__logo text-white  text-3xl">ZeroWaste</h1>
+                           <h1 className="header-general__logo text-white  text-3xl">ZeroWaste</h1>
                         </div>
                         <div className="flex items-center">
                             <a href="#" className="header-general__nav pl-12 text-white  ">Главная</a>
@@ -82,7 +78,6 @@ const Header = () => {
                             <a href="#" className="header-general__nav pl-12 text-white  ">Услуги</a>
                             <FormGroup >
                                 <FormControlLabel
-
                                     control={<MaterialUISwitch sx={{m: 1}} defaultChecked /> }
                                     label=""/>
                             </FormGroup>
@@ -95,6 +90,10 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            {/*<Routes>*/}
+            {/*    <Route path="/bas" element={<Bas/>}/>*/}
+            {/*    <Route path="/poli" element={<Poli/>}/>*/}
+            {/*</Routes>*/}
         </div>
     );
 };

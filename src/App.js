@@ -11,10 +11,14 @@ import Out from "./components/our/Our";
 import Reviews from "./components/reviews/Reviews";
 import Question from "./components/question/Question";
 import Footer from "./components/footer/Footer"
+import {Routes, Route} from "react-router-dom"
+import Bas from "./pages/bas/Bas";
+import Poli from "./pages/poli/Poli";
 
 function App() {
     return (
-        <div>
+        <div className="App">
+
             <Header/>
             <Hero/>
             <About/>
@@ -25,6 +29,7 @@ function App() {
             <Reviews/>
             <Question/>
             <Footer/>
+
         </div>
     );
 }
