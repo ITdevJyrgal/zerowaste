@@ -3,14 +3,8 @@ import Slider from "react-slick";
 
 export default function SimpleSlider() {
     const settings = {
-        // dots: false,
-        // infinite: true,
-        // speed: 1000,
-        // slidesToShow: 2,
-        // arrows: false,
-        // autoplay: true,
-        // autoplaySpeed: 4000,
         dots: false,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -26,39 +20,155 @@ export default function SimpleSlider() {
                 </div>
 
 
-                    <Slider {...settings}>
-                        <div>
-                            <div className="reviews-general__block">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet expedita nostrum
-                                quibusdam quisquam? Accusamus alias animi aperiam commodi consectetur dolor esse eveniet
-                                fugit id itaque iusto labore laboriosam laborum magni, maxime minus molestiae nisi nulla
-                                praesentium provident quaerat quibusdam quis quo repellat repudiandae saepe, sapiente
-                                sint soluta suscipit tenetur unde, ut veritatis voluptatum? Accusamus aliquid animi
-                                aperiam consequatur cum distinctio dolorem doloremque ducimus est facere fuga hic
-                                incidunt ipsa, ipsam itaque magnam maiores minus, nihil nulla numquam obcaecati odio
-                                officia pariatur perferendis praesentium provident quia quos reiciendis repellat soluta
-                                tempore totam ullam voluptatum? Doloribus, est iusto quia sapiente totam voluptatibus.
+                <Slider {...settings}>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <h6 className="text-black pl-3 ">Здравствуйте дороги читатели отзыва о каркасном бассейне
+                                BestWay. Приобрели его совсем
+                                недавно, и хочется поделится первыми впечатлениями от его обладания. Сборка бассейна
+                                была сделана за тридцать минут вдвоем. Все детали сделаны так что можно его...</h6>
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <h6 className="text-black pl-3 ">Здравствуйте дороги читатели отзыва о каркасном бассейне
+                                BestWay. Приобрели его совсем
+                                недавно, и хочется поделится первыми впечатлениями от его обладания. Сборка бассейна
+                                была сделана за тридцать минут вдвоем. Все детали сделаны так что можно его...</h6>
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <div className="flex items-center justify-center">
+                                <iframe width="300" height="180" src="https://www.youtube.com/embed/PXGycbkbtW0"
+                                        title="YouTube video player" frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen/>
                             </div>
-                        </div>
-                        <div>
-                            <h3>2</h3>
-                        </div>
-                        <div>
-                            <h3>3</h3>
-                        </div>
-                        <div>
-                            <h3>4</h3>
-                        </div>
-                        <div>
-                            <h3>5</h3>
-                        </div>
-                        <div>
-                            <h3>6</h3>
-                        </div>
-                    </Slider>
 
-                </div>
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <h6 className="text-black pl-3 ">Здравствуйте дороги читатели отзыва о каркасном бассейне
+                                BestWay. Приобрели его совсем
+                                недавно, и хочется поделится первыми впечатлениями от его обладания. Сборка бассейна
+                                была сделана за тридцать минут вдвоем. Все детали сделаны так что можно его...</h6>
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <h6 className="text-black pl-3 ">Здравствуйте дороги читатели отзыва о каркасном бассейне
+                                BestWay. Приобрели его совсем
+                                недавно, и хочется поделится первыми впечатлениями от его обладания. Сборка бассейна
+                                была сделана за тридцать минут вдвоем. Все детали сделаны так что можно его...</h6>
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <div className="flex items-center justify-center">
+                                <iframe width="300" height="180" src="https://www.youtube.com/embed/PXGycbkbtW0"
+                                        title="YouTube video player" frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen/>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <h6 className="text-black pl-3 ">Здравствуйте дороги читатели отзыва о каркасном бассейне
+                                BestWay. Приобрели его совсем
+                                недавно, и хочется поделится первыми впечатлениями от его обладания. Сборка бассейна
+                                была сделана за тридцать минут вдвоем. Все детали сделаны так что можно его...</h6>
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <h6 className="text-black pl-3 ">Здравствуйте дороги читатели отзыва о каркасном бассейне
+                                BestWay. Приобрели его совсем
+                                недавно, и хочется поделится первыми впечатлениями от его обладания. Сборка бассейна
+                                была сделана за тридцать минут вдвоем. Все детали сделаны так что можно его...</h6>
+                        </div>
+                    </div>
+                    <div className="cursor-pointer">
+                        <div
+                            className="reviews-general__block relative  shadow hover:shadow-lg shadow-inner"
+                            style={{
+                                width: "413px",
+                                height: "210px",
+                                shadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+                            }}>
+                            <h1 className="text-2xl p-3">Ryan Florence</h1>
+                            <div className="flex items-center justify-center">
+                                <iframe width="300" height="180" src="https://www.youtube.com/embed/PXGycbkbtW0"
+                                        title="YouTube video player" frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen/>
+                            </div>
+
+                        </div>
+                    </div>
+                </Slider>
+
             </div>
+        </div>
     );
 
 }

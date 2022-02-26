@@ -1,0 +1,15 @@
+:root {
+    --background: #707070;
+    --color: black;
+    --background-color: #fff;
+    --block: #fff;
+    transition: 2s;
+}
+
+[data-theme='dark'] {
+    --background: #ffffff;
+    --color: white;
+    --background-color: #000;
+    --block: #000;
+    transition: all 2s;
+}
