@@ -15,7 +15,7 @@ const Job = () => {
                     {
                         Dates.map(el => {
                             return (
-                                <div className="job-general__block">
+                                <div className="job-general__block shadow hover:shadow-lg shadow-inner">
                                     <img src={el.img} alt="img"/>
                                     <p className="job-general__block__item"> {el.item}</p>
                                 </div>

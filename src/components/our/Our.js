@@ -9,7 +9,7 @@ import hai from "./../../assets/img/hai.jpg"
 
 import xag from "./../../assets/img/xag.jpg"
 import drag from "./../../assets/img/drag.jpg"
-// import pod from "./../../assets/img/pod.svg"
+//  import pod from "./../../assets/img/pod.svg"
 // import {Link} from "react-router-dom"
 
 const Our = () => {
@@ -43,7 +43,7 @@ const Our = () => {
                             <img src={treh} alt="img" className="our-general__block__img"/>
                             <span className="our-general__block__gen">
                                 <p className="our-general__block__gen">Трехэтажный загородный коттедж с плоской крышей</p>
-                                                           {/*<Link to="/bas"> <img src={pod} alt="" className="our-general__block__pod"/> </Link> */}
+                                                           {/*<Link to="/bas"> <img src={pod} alt="" className="our-general__block__pod"/> </Link>*/}
                             </span>
                         </div>
 

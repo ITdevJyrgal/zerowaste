@@ -46,6 +46,12 @@
       line-height: 21px;
       color: #FFFFFF;
       padding: 5px 0;
+      transition: .3s;
+      cursor: pointer;
+
+      &:hover {
+        color: #00E3AD;
+      }
     }
 
     &__icon {
@@ -67,7 +73,15 @@
       align-items: center;
       border-radius: 50%;
       background: #fff;
+      transition: .3s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+
+      }
     }
+
     &__width {
       margin-top: 7%;
       width: 100%;

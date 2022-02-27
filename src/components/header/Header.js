@@ -4,10 +4,9 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import {styled} from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
-// import {Link} from "react-router-dom";
-// import {Routes, Route} from "react-router-dom"
-// import Bas from "../../pages/bas/Bas";
-// import Poli from "../../pages/poli/Poli";
+import {Routes, Route} from "react-router-dom"
+import Bas from "../../pages/bas/Bas";
+import Poli from "../../pages/poli/Poli";
 
 const Header = () => {
     const MaterialUISwitch = styled(Switch)(({theme}) => ({
